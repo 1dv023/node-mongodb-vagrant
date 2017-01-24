@@ -1,20 +1,20 @@
 # node-mongodb-vagrant
-This is a boilerplate vagrant solution for students taking the course sevrer based web programming at the Linnaeus University, Kalmar, Sweden
+This is a boilerplate Vagrant solution for students taking the course server based web programming at the Linnaeus University, Kalmar, Sweden
 
 Following stuff will be installed:
-* node.js, latest stable (OBS not LTS) version
+* node.js, latest stable (note: not LTS) version
 * npm (along with node.js)
 * mongodb - noSQL database, latest version
 * redis server - fast in memory server, version 3.0.6
 
 To get this to work, you must have VirtualBox and Vagrant installed. Installers for VirtualBox are available at http://www.virtualbox.org, and installers for
-Vagrant are available at http://www.vagrantup.com.
+Vagrant is available at http://www.vagrantup.com.
 
-Clone this repo to a folder on your local system and give it a name of your own (my_project in this case)
+Clone this repo to a folder on your local system and give it a name of your own (my_project in this case):
 
     git clone https://github.com/1dv023/node-mongodb-vagrant.git my_project
 
-go to that directory and start up the vagrant machine
+Go to that directory and start up the vagrant machine
 
     cd my_project
     vagrant up
@@ -46,4 +46,4 @@ You can also try to install the package as globals if you need to execture the b
 
     npm install jade -g
 
-This vagrant images is tested on Mac OSX Yosemite with Virtual Box version 5.0.10 and Vagrant version 1.7.4
+This vagrant image is tested on Mac OSX Yosemite with Virtual Box version 5.0.10 and Vagrant version 1.7.4
